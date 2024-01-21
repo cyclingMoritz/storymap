@@ -20,7 +20,7 @@ var config = {
             location: {
                 center: [2.139423577969441,41.3822612689802],
                 zoom: 18,
-                pitch: 60,
+                pitch: 30,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
@@ -49,6 +49,57 @@ var config = {
             location: {
                 center: [14.42555555, 40.82138888],
                 zoom: 14.5,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },{
+            id: 'volcan3',
+            alignment: 'right',
+            hidden: false,
+            title: 'Where it actually started',
+            image: 'https://offloadmedia.feverup.com/madridsecreto.co/wp-content/uploads/2021/01/13131201/filomena-shutterstock-1024x683.jpg',
+            location: {
+                center: [ -3.6910761992906056, 40.420535251929124],
+                zoom: 14.5,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },{
+            id: '4',
+            alignment: 'right',
+            hidden: false,
+            title: 'Where was I born?',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/c/ce/Altstadtbr%C3%BCcke_und_Peterskirche_in_G%C3%B6rlitz.jpg',
+            location: {
+                center: [ 14.99229638783196,51.15833535706055],
+                zoom: 15,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },{
+            id: '4',
+            alignment: 'right',
+            hidden: false,
+            title: 'First trip',
+            image: 'https://media.cntraveler.com/photos/629fa2fa811eeb0c0dcf6ee2/master/pass/16x9_Milos_Poliegos_Merakos_02.jpg',
+            location: {
+                center: [  23.765548425781684, 40.22880126880727],
+                zoom: 15,
                 pitch: 60,
                 bearing: -43.2
             },
