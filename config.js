@@ -92,14 +92,82 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         },{
-            id: '4',
+            id: '5',
             alignment: 'right',
             hidden: false,
             title: 'First trip',
             image: 'https://media.cntraveler.com/photos/629fa2fa811eeb0c0dcf6ee2/master/pass/16x9_Milos_Poliegos_Merakos_02.jpg',
             location: {
-                center: [  23.765548425781684, 40.22880126880727],
+                center: [24.4288926512396,  37.395789559515556],
                 zoom: 15,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },{
+            id: '6',
+            alignment: 'right',
+            hidden: false,
+            title: 'First stay',
+            image: 'https://image.homeexchange.fr/images/home/467103/1569220/1630332630676208.jpg?quality=80&height=350&keep-ratio=true',
+            location: {
+                center: [ 16.993403942473712, 38.93315288199571],
+                zoom: 15,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },{
+            id: '7',
+            alignment: 'left',
+            hidden: false,
+            title: 'Small publicity break',
+            image: 'https://media.e-borghi.com/public/strutture/31_10_19-03_30_48-b7209f24aab5edfa4fd3ee52c2f2546d.jpg',
+            location: {
+                center: [17.021104196472585, 38.90689806444026],
+                zoom: 18,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },{
+            id: '8',
+            alignment: 'right',
+            hidden: false,
+            title: 'Childhood',
+            image: 'https://cdn.kimkim.com/files/a/images/7d9d69680387349e308312e71e265b1b40f616fc/original-4c1ec39ae1792803057058ef1f4c4b8c.jpg',
+            location: {
+                center: [ 2.1877459195909275,41.38810548493022],
+                zoom: 18,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },{
+            id: '9',
+            alignment: 'right',
+            hidden: false,
+            title: 'Adolescense',
+            image: 'https://museudecardedeu.cat/wp-content/uploads/2019/01/Cardedeu_Sant_Hilari_aplec-1024x709.jpg',
+            location: {
+                center: [ 2.359761907048414, 41.640503038792666],
+                zoom: 18,
                 pitch: 60,
                 bearing: -43.2
             },
